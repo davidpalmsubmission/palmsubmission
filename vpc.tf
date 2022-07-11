@@ -1,3 +1,7 @@
+##########################
+# Requested Security Group
+##########################
+
 resource "aws_security_group" "sg_ipfs_arn" {
   name        = "sg_ipfs_arn"
   description = "Allow IPFS inbound traffic"
